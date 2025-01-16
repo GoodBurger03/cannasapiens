@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+#game {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+#stats {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+#plants {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plant {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plant img {
+  width: 100px;
+  height: auto;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#add-plant {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}

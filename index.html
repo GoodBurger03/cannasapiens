@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cannabis Growing Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <h1>Cannabis Growing Simulator</h1>
+      <div id="stats">
+        <p>Water: <span id="water">50</span></p>
+        <p>Light: <span id="light">50</span></p>
+        <p>Nutrients: <span id="nutrients">50</span></p>
+      </div>
+      <div id="plants">
+        <div class="plant" data-stage="seed">
+          <img src="seed.png" alt="Seed" />
+          <p>Growth Stage: <span class="stage">Seed</span></p>
+          <button class="water-btn">Water</button>
+          <button class="light-btn">Add Light</button>
+          <button class="nutrients-btn">Add Nutrients</button>
+        </div>
+      </div>
+      <button id="add-plant">Add Plant</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
